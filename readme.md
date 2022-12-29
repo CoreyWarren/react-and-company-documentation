@@ -25,7 +25,9 @@
 
 ## How the major components work to make a web application:
 
-- React
+- **JavaScript**
+
+- **React**
 
 React is a JS (JavaScript) library used for building UIs on web apps. It allows us to build reusable UI components. These components can be combined to create more complex user interfaces. It uses a virtual Document Object Model (VDOM) to update the interface efficiently only when the underlying data changes. In other words, React only updates the parts of the interface that are necessary, avoiding re-rendering the entire UI every time changes are made.
 
@@ -86,7 +88,7 @@ This is a high-level overview of some of the major parts of a React app. There a
 
 
 
-- Redux
+- **Redux**
 
 Redux is a state management tool for JavaScript applications. It helps you design applications that behave consistently and are easy to test by keeping the application state in a single, immutable store.
 
@@ -179,15 +181,15 @@ store.dispatch(action);
   * Each UI component that needs data from the store checks to see if the parts of the state they need have changed.
   * Each component that sees its data has changed forces a re-render with the new data, so it can update what's shown on the screen
 
-- Express
+- **Express**
 ```
 ```
-- Django
+- **Django**
 ```
 ```
-- AJAX
+- **AJAX**
 ```
 ```
-- DigitalOcean
+- **DigitalOcean**
 ```
 ```
