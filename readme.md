@@ -70,8 +70,7 @@ export default App;
 ```
 - Redux
 
-Redux is a state management tool.  https://redux.js.org/tutorials/fundamentals/part-1-overview
-It uses store, reducer, state, ui, and dispatch/actions in order to update the state of your app on a single page.
+Redux is a state management tool for JavaScript applications. It helps you design applications that behave consistently and are easy to test by keeping the application state in a single, immutable store.
 
 ```js
 import { createStore } from 'redux';
@@ -100,13 +99,13 @@ store.dispatch({ type: 'INCREMENT' }); // -> 2
 store.dispatch({ type: 'DECREMENT' }); // -> 1
 ```
 
-Redux is a state management tool for JavaScript applications. It helps you design applications that behave consistently and are easy to test by keeping the application state in a single, immutable store.
+
 
 The major parts of Redux are:
 
 Store: The store is the central data store for the application. It holds the current state of the application, and is the only place where the state can be updated. The store is created using the createStore function and a reducer function, which defines how the state is updated in response to actions.
 
-Actions: Actions are payloads of information that are sent to the store to update the state. They are plain JavaScript objects that must have a type property to identify the type of action being performed. Actions can also include other properties that contain additional data needed to update the state.
+Actions (Dispatch): Actions are payloads of information that are sent to the store to update the state. They are plain JavaScript objects that must have a type property to identify the type of action being performed. Actions can also include other properties that contain additional data needed to update the state.
 
 Reducers: Reducers are pure functions that take the current state and an action as arguments and return a new state. They define how the state is updated in response to actions. Reducers must be pure functions, meaning they should not have any side effects and should always return the same output for a given input.
 
