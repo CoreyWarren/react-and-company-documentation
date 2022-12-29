@@ -28,19 +28,25 @@
 - <h2>&#x1F34F; JavaScript</h2>
 
   <h3> Basics:
+  
   - Scoping
   
   - Callbacks 
   
   - Promises
   
-  * Passing Functions to other Functions 
+  - Passing Functions to other Functions 
   
-  * References vs Values
+  - References vs Values
   
-  * == and ===, Type Coercion
+  - == and ===, Type Coercion
+    * Implicit Type Coercion:
   
-  * Advanced Logic (Short Circuiting and More)
+    * Explicit Type Coercion
+  
+    * Comparison Type Coercion
+  
+  - Advanced Logic (Short Circuiting and More)
   
   * Order of Operations (Ands, Ors, and other Operators)
   
