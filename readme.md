@@ -88,7 +88,7 @@ This is a high-level overview of some of the major parts of a React app. There a
 
 
 
-- **Redux**
+- <h2>Redux</h2>
 
 Redux is a state management tool for JavaScript applications. It helps you design applications that behave consistently and are easy to test by keeping the application state in a single, immutable store.
 
@@ -181,15 +181,15 @@ store.dispatch(action);
   * Each UI component that needs data from the store checks to see if the parts of the state they need have changed.
   * Each component that sees its data has changed forces a re-render with the new data, so it can update what's shown on the screen
 
-- **Express**
+- <h2>Express</h2>
 ```
 ```
-- **Django**
+- <h2>Django</h2>
 ```
 ```
-- **AJAX**
+- <h2>AJAX</h2>
 ```
 ```
-- **DigitalOcean**
+- <h2>DigitalOcean</h2>
 ```
 ```
