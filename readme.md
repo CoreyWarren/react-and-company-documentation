@@ -69,6 +69,22 @@ function App() {
 export default App;
 ```
 
+Components: Components are the building blocks of a React app. They are reusable pieces of UI that can be combined to create complex user interfaces. Components can be classified as either functional or class-based. Functional components are simple functions that take props as an argument and return a JSX element, while class-based components are classes that extend the React.Component base class and define a render method.
+
+Props: Props (short for "properties") are inputs to a component that are passed in from the parent component. They are used to customize the behavior and appearance of a component and can be accessed inside the component using the props object.
+
+State: State is a data store for a component that is managed by the component itself. It is used to store data that is specific to the component and can change over time. State is initialized when the component is created and can be updated using the setState method.
+
+Routing: Routing is the process of defining the paths and components that should be displayed for different URL patterns in a single-page application. It is often handled using a routing library like react-router, which provides a set of components and functions for defining and navigating between routes.
+
+API integration: Many React apps need to interact with APIs to retrieve data or perform actions. This can be done using a library like axios or the fetch API to make HTTP requests and handle the responses.
+
+Testing: Testing is an important part of the development process for any app. React apps can be tested using a variety of tools, such as Jest for unit testing and Enzyme for integration testing.
+
+This is a high-level overview of some of the major parts of a React app. There are many other aspects of building a production-ready React app, such as building and deploying the app, optimizing performance, and handling errors and edge cases.
+
+
+
 
 - Redux
 
