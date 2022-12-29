@@ -1,4 +1,4 @@
-# Part 1 -- Summary:
+# &#x1F4D9; Part 1 -- Summary:
 
 ## Major components of this project:
 
@@ -21,7 +21,7 @@
 - HTML
 - CSS
 
-# Part 2 -- Breakdowns:
+# &#x1F4D9; Part 2 -- Breakdowns:
 
 ## How the major components work to make a web application:
 
