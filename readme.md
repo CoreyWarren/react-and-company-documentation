@@ -1,3 +1,5 @@
+# Summary:
+
 ## Major components of this project:
 
 - React
@@ -18,3 +20,27 @@
 - JavaScript
 - HTML
 - CSS
+
+# Breakdowns:
+
+## How the major components work to make a web application:
+
+- React
+```
+
+```
+- Redux
+```
+```
+- Express
+```
+```
+- Django
+```
+```
+- AJAX
+```
+```
+- DigitalOcean
+```
+```
