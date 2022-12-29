@@ -27,6 +27,38 @@
 
 - <h2>&#x1F34F; JavaScript</h2>
 
+  <h3> Basics:
+  - Scoping
+  
+  - Callbacks 
+  
+  - Promises
+  
+  * Passing Functions to other Functions 
+  
+  * References vs Values
+  
+  * == and ===, Type Coercion
+  
+  * Advanced Logic (Short Circuiting and More)
+  
+  * Order of Operations (Ands, Ors, and other Operators)
+  
+  * Advanced Array Methods (Math, Filter, Sort) (How Arrays are Modified)
+  
+  * Immutability and Modifications in JS
+  
+  * Asynchronous Code (Using callbacks, promises, and asyncwait)
+  
+  * Modules and Modularity via Small components (import, export)
+  
+  * ES6 new functionalities
+  
+  
+  
+  
+  
+
 - <h2>&#x1F34F; React</h2>
 
 React is a JS (JavaScript) library used for building UIs on web apps. It allows us to build reusable UI components. These components can be combined to create more complex user interfaces. It uses a virtual Document Object Model (VDOM) to update the interface efficiently only when the underlying data changes. In other words, React only updates the parts of the interface that are necessary, avoiding re-rendering the entire UI every time changes are made.
