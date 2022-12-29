@@ -119,7 +119,7 @@ store.dispatch({ type: 'DECREMENT' }); // -> 1
 
 
 
-The major parts of Redux are:
+### The major parts of Redux are:
 
 Store: The store is the central data store for the application. It holds the current state of the application, and is the only place where the state can be updated. The store is created using the createStore function and a reducer function, which defines how the state is updated in response to actions.
 
@@ -131,6 +131,19 @@ Middleware: Middleware is optional code that can be added to the store to extend
 
 Selectors: Selectors are functions that allow you to retrieve specific pieces of data from the store. They are typically used to extract data from the store state and transform it into a form that is more suitable for presentation or manipulation.
 
+### For Redux specifically, we can break these steps into more detail:
+
+Initial setup:
+A Redux store is created using a root reducer function
+The store calls the root reducer once, and saves the return value as its initial state
+When the UI is first rendered, UI components access the current state of the Redux store, and use that data to decide what to render. They also subscribe to any future store updates so they can know if the state has changed.
+Updates:
+Something happens in the app, such as a user clicking a button
+The app code dispatches an action to the Redux store, like dispatch({type: 'counter/incremented'})
+The store runs the reducer function again with the previous state and the current action, and saves the return value as the new state
+The store notifies all parts of the UI that are subscribed that the store has been updated
+Each UI component that needs data from the store checks to see if the parts of the state they need have changed.
+Each component that sees its data has changed forces a re-render with the new data, so it can update what's shown on the screen
 
 - Express
 ```
