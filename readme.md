@@ -34,7 +34,7 @@
 Redux is a state management tool.  https://redux.js.org/tutorials/fundamentals/part-1-overview
 It uses store, reducer, state, ui, and dispatch/actions in order to update the state of your app on a single page.
 
-```
+```js
 import { createStore } from 'redux';
 
 // Reducer function
