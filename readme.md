@@ -99,6 +99,22 @@ store.dispatch({ type: 'INCREMENT' }); // -> 1
 store.dispatch({ type: 'INCREMENT' }); // -> 2
 store.dispatch({ type: 'DECREMENT' }); // -> 1
 ```
+
+Redux is a state management tool for JavaScript applications. It helps you design applications that behave consistently and are easy to test by keeping the application state in a single, immutable store.
+
+The major parts of Redux are:
+
+Store: The store is the central data store for the application. It holds the current state of the application, and is the only place where the state can be updated. The store is created using the createStore function and a reducer function, which defines how the state is updated in response to actions.
+
+Actions: Actions are payloads of information that are sent to the store to update the state. They are plain JavaScript objects that must have a type property to identify the type of action being performed. Actions can also include other properties that contain additional data needed to update the state.
+
+Reducers: Reducers are pure functions that take the current state and an action as arguments and return a new state. They define how the state is updated in response to actions. Reducers must be pure functions, meaning they should not have any side effects and should always return the same output for a given input.
+
+Middleware: Middleware is optional code that can be added to the store to extend its functionality. It allows you to perform tasks such as logging actions, handling asynchronous actions, or dispatching additional actions.
+
+Selectors: Selectors are functions that allow you to retrieve specific pieces of data from the store. They are typically used to extract data from the store state and transform it into a form that is more suitable for presentation or manipulation.
+
+
 - Express
 ```
 ```
