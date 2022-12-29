@@ -1,4 +1,4 @@
-# Summary:
+# Part 1 -- Summary:
 
 ## Major components of this project:
 
@@ -21,13 +21,13 @@
 - HTML
 - CSS
 
-# Breakdowns:
+# Part 2 -- Breakdowns:
 
 ## How the major components work to make a web application:
 
-- **JavaScript**
+- <h2>JavaScript</h2>
 
-- **React**
+- <h2>**React**</h2>
 
 React is a JS (JavaScript) library used for building UIs on web apps. It allows us to build reusable UI components. These components can be combined to create more complex user interfaces. It uses a virtual Document Object Model (VDOM) to update the interface efficiently only when the underlying data changes. In other words, React only updates the parts of the interface that are necessary, avoiding re-rendering the entire UI every time changes are made.
 
