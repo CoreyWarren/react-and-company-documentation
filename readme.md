@@ -123,7 +123,41 @@ store.dispatch({ type: 'DECREMENT' }); // -> 1
 
 - **Store:** The store is the central data store for the application. It holds the current state of the application, and is the only place where the state can be updated. The store is created using the createStore function and a reducer function, which defines how the state is updated in response to actions.
 
+```
+// Creating a store with redux:
+import { createStore } from 'redux';
+
+// The reducer function
+function reducer(state = {}, action) {
+  switch (action.type) {
+    case 'INCREMENT':
+      return { count: state.count + 1 };
+    case 'DECREMENT':
+      return { count: state.count - 1 };
+    default:
+      return state;
+  }
+}
+
+// Create the store
+const store = createStore(reducer);
+```
+
 - **Actions (Dispatch):** Actions are payloads of information that are sent to the store to update the state. They are plain JavaScript objects that must have a type property to identify the type of action being performed. Actions can also include other properties that contain additional data needed to update the state.
+
+```
+// Example of an action in Redux:
+const action = {
+  type: 'ADD_TODO',
+  payload: {
+    id: 1,
+    text: 'Write code'
+  }
+};
+
+// To dispatch an action, use 'dispatch' method of the store:
+store.dispatch(action);
+```
 
 - **Reducers:** Reducers are pure functions that take the current state and an action as arguments and return a new state. They define how the state is updated in response to actions. Reducers must be pure functions, meaning they should not have any side effects and should always return the same output for a given input.
 
