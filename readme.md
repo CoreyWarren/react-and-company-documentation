@@ -37,7 +37,7 @@
  }
  ```
   
- ``` 
+ ```js
  let x = 5; // x has global scope
 
  function myFunction() {
