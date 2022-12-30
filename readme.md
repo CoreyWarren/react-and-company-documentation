@@ -27,9 +27,23 @@
 
 - <h2>&#x1F34F; JavaScript</h2>
 
-  <h3> Basics:
+  <h3> Basics:</h3>
   
-  - Scoping
+  - **Scope** - refers to the part of a program in which a variable is visible or accessible. There exists global scope and local scope. When a variable is defined inside a function in JS, it has local scope. When defined outside a function, it will have global scope, generally speaking.
+ ```js
+ function myFunction() {
+ let y = 10; // y has local scope
+ console.log(y); // y is accessible inside the function
+ }
+ ```
+  
+ ``` 
+ let x = 5; // x has global scope
+
+ function myFunction() {
+ console.log(x); // x is accessible inside the function
+ }
+ ```
   
   - Callbacks 
   
