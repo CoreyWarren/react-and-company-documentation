@@ -14,7 +14,7 @@
 - nginx
 - bootstrap
 
-## Languages/Technologies Used:
+## Base Languages/Technologies Used:
 
 - Python
 - JavaScript
