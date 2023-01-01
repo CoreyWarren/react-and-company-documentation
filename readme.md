@@ -146,6 +146,8 @@ There are many other aspects of building a production-ready React app, such as b
 
 Redux is a state management tool for JavaScript applications. It helps you design applications that behave consistently and are easy to test by keeping the application state in a single, immutable store.
 
+Here is a fellow dev's views on Redux: https://qr.ae/prvjpl
+
 ```js
 import { createStore } from 'redux';
 
